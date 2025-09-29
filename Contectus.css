@@ -1,0 +1,126 @@
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background: black;
+     padding: 15px 40px;
+}
+
+.navbar .logo {
+     font-size: 22px;
+     font-weight: bold;
+     color: white;
+}
+
+.nav-links {
+     list-style: none;
+     display: flex;
+     gap: 40px;
+     margin: 0;
+     padding: 0;
+}
+
+.nav-links a {
+     text-decoration: none;
+     color: white;
+     font-weight: 500;
+     transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+     color: #ffcc00;
+}
+
+.contact-section {
+     padding: 60px 20px;
+     text-align: center;
+}
+
+.contact-section h1 {
+     font-size: 36px;
+     margin-bottom: 10px;
+}
+
+.contact-section p {
+     margin-bottom: 40px;
+     color: #555;
+}
+
+.contact-container {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     flex-wrap: wrap;
+}
+
+.contact-form {
+     background: #f9f9f9;
+     padding: 25px;
+     border-radius: 10px;
+     width: 350px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: left;
+}
+
+.contact-form label {
+     display: block;
+     margin-top: 15px;
+     font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-top: 5px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+}
+
+.contact-form button {
+     margin-top: 20px;
+     padding: 12px;
+     width: 100%;
+     border: none;
+     background: black;
+     color: white;
+     font-size: 16px;
+     border-radius: 6px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+     background: #ffcc00;
+     color: black;
+}
+
+.contact-info {
+     width: 300px;
+     text-align: left;
+}
+
+.contact-info h2 {
+     margin-bottom: 20px;
+}
+
+.contact-info p {
+     margin: 10px 0;
+     font-size: 16px;
+}
+
+.social-icons {
+     margin-top: 15px;
+}
+
+.social-icons a {
+     margin-right: 15px;
+     font-size: 22px;
+     color: black;
+     transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+     color: #ffcc00;
+}
